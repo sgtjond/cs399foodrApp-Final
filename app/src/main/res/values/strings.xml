@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Foodr</string>
+    <string name="name_app">Foodr</string>
+    <string name="team_name">Team MJK</string>
+    <string name="help_button">Find Restaurant</string>
+    <string name="set_parameters_button">Set Parameters</string>
+    <string name="rest_name">Name of Restaurant</string>
+    <string name="decline_choice_button">Nah</string>
+    <string name="accept_choice_button">Yeah</string>
+    <string name="info_1">Restaurant info 1</string>
+    <string name="info_2">Restaurant info 2</string>
+    <string name="rest_hrs">Restaurant hours</string>
+    <string name="rest_address">Restaurant address</string>
+    <string name="get_direction_button">Get Directions</string>
+    <string name="back_button">Back</string>
+    <string name="logo">Foodr logo</string>
+    <string name="welcome">Welcome to Foodr</string>
+    <string name="thai_cuisine">Thai Cuisine</string>
+    <string name="restart_button">Home</string>
+    <string name="get_started">Click Here to Start</string>
+
+    <string name="darathai">Dara Thai</string>
+    <string name="swaddeethai">Swaddee Thai</string>
+    <string name="chinastar">China Star</string>
+    <string name="pandaexpress">Panda Express</string>
+    <string name="chinagarden">China Garden</string>
+    <string name="olivegarden">Olive Garden</string>
+    <string name="oreganos">Oreganos</string>
+    <string name="nimarcos">NiMarcos</string>
+    <string name="fratelli">Fratelli</string>
+    <string name="fiveguys">5 Guys</string>
+    <string name="habitburger">Habit Burger</string>
+    <string name="smokehouse">Smokehouse BBQ</string>
+    <string name="bigfoot">Bigfoot BBQ</string>
+    <string name="canes">Raising Canes</string>
+    <string name="chick">Chick Fil A</string>
+
+    <string name="thai">Thai Food</string>
+    <string name="chinese">Chinese Food</string>
+    <string name="italian">Italian Food</string>
+    <string name="american">American Food</string>
+    <string name="pizza">Pizza</string>
+    <string name="burgers">Hamburgers</string>
+    <string name="barbeque">Barbeque</string>
+    <string name="chicken">Chicken</string>
+
+    <string name="daraaddress">14 S San Francisco St, Flagstaff, AZ 86001</string>
+    <string name="swaddeeaddress">115 E Aspen Ave, Flagstaff, AZ 86001</string>
+    <string name="chinastaraddress">1802 E Rte 66, Flagstaff, AZ 86004</string>
+    <string name="pandaaddress">1111 S Plaza Way, Flagstaff, AZ 86001</string>
+    <string name="chinagardenaddress">1301 S Milton Rd, Flagstaff, AZ 86001</string>
+    <string name="olivegardenaddress">2550 S Beulah Blvd, Flagstaff, AZ 86001</string>
+    <string name="oreganosaddress">1061 S Plaza Way Suite C, Flagstaff, AZ 86001</string>
+    <string name="nimarcosaddress">1800 S Milton Rd, Flagstaff, AZ 86001</string>
+    <string name="fratelliaddress">119 W Phoenix Ave, Flagstaff, AZ 86001</string>
+    <string name="fiveguysaddress">1800 S Milton Rd, Flagstaff, AZ 86001</string>
+    <string name="habitaddress">1400 S Milton Rd, Flagstaff, AZ 86001</string>
+    <string name="smokehouseaddress">1435 S Milton Rd, Flagstaff, AZ 86001</string>
+    <string name="bigfootbbqaddress">Basement, 120 N Leroux St, Flagstaff, AZ 86001</string>
+    <string name="canesaddress">1551 S Milton Rd, Flagstaff, AZ 86001</string>
+    <string name="chickaddress">1000 S Milton Rd, Flagstaff, AZ 86001</string>
+
+    <string name="hours">Hours: 10:00 AM - 12:00 AM</string>
+
+    <string name="selectthai">Include Thai Food</string>
+    <string name="selectchinese">Include Chinese Food</string>
+    <string name="selectitalian">Include Italian Food</string>
+    <string name="selectamerican">Include American Food</string>
+    <string name="selectpizza">Include Pizza</string>
+    <string name="selectburgers">Include Burgers</string>
+    <string name="selectbarbecue">Include Barbecue</string>
+    <string name="selectchicken">Include Chicken</string>
+
+    <string name="preferencesback">back</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParametersScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <CheckBox
+                android:id="@+id/thaicheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectthai" />
+
+            <CheckBox
+                android:id="@+id/chinesecheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectchinese" />
+
+            <CheckBox
+                android:id="@+id/italiancheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectitalian" />
+
+            <CheckBox
+                android:id="@+id/americancheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectamerican" />
+
+            <CheckBox
+                android:id="@+id/pizzacheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectpizza" />
+
+            <CheckBox
+                android:id="@+id/burgercheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectburgers" />
+
+            <CheckBox
+                android:id="@+id/barbecuecheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectbarbecue" />
+
+            <CheckBox
+                android:id="@+id/chickencheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectchicken" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/parametersBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/preferencesback"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

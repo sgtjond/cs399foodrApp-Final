@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResturantInfoScreen"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/nameOfRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="@string/rest_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <TextView
+        android:id="@+id/cuisineType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/thai_cuisine"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/nameOfRestaurant"
+        app:layout_constraintStart_toStartOf="@+id/nameOfRestaurant"
+        app:layout_constraintTop_toBottomOf="@+id/nameOfRestaurant" />
+
+    <LinearLayout
+        android:id="@+id/picLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/topLinearLayoutRest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuisineType">
+
+        <ImageView
+            android:id="@+id/restaurantImage"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/rest_name"
+            app:srcCompat="@drawable/darathai" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topLinearLayoutRest"
+        android:layout_width="365dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@id/picLayout"
+        app:layout_constraintStart_toStartOf="@id/picLayout"
+        app:layout_constraintTop_toBottomOf="@id/picLayout">
+
+        <TextView
+            android:id="@+id/restaurantInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/info_1" />
+
+        <TextView
+            android:id="@+id/restaurantInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/info_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/topLinearLayoutRest"
+        app:layout_constraintStart_toStartOf="@+id/topLinearLayoutRest"
+        app:layout_constraintTop_toBottomOf="@+id/topLinearLayoutRest">
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/Widget.AppCompat.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/back_button" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            style="@style/Widget.AppCompat.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/restart_button" />
+
+        <Button
+            android:id="@+id/btnGetDirection"
+            style="@style/Widget.AppCompat.ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/get_direction_button" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

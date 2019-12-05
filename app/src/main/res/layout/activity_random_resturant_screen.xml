@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomResturantScreen">
+
+    <TextView
+        android:id="@+id/nameOfRestaurantInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="@string/rest_name"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cuisineTypeInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/thai_cuisine"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/nameOfRestaurantInfo"
+        app:layout_constraintStart_toStartOf="@+id/nameOfRestaurantInfo"
+        app:layout_constraintTop_toBottomOf="@+id/nameOfRestaurantInfo" />
+
+    <LinearLayout
+        android:id="@+id/topLinearLayoutRandScreen"
+        android:layout_width="371dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="75dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/cuisineTypeInfo"
+        app:layout_constraintStart_toStartOf="@+id/cuisineTypeInfo"
+        app:layout_constraintTop_toBottomOf="@+id/cuisineTypeInfo">
+
+        <Button
+            android:id="@+id/btnNah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/decline_choice_button" />
+
+        <ImageView
+            android:id="@+id/restaurantImageInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/rest_name"
+            app:srcCompat="@drawable/darathai" />
+
+        <Button
+            android:id="@+id/btnYeah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/accept_choice_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLinearLayoutRandScreen"
+        android:layout_width="357dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="85dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/topLinearLayoutRandScreen"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/topLinearLayoutRandScreen"
+        app:layout_constraintTop_toBottomOf="@+id/topLinearLayoutRandScreen">
+
+        <TextView
+            android:id="@+id/restaurantInfo1Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/info_1" />
+
+        <TextView
+            android:id="@+id/restaurantInfo2Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/info_2" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
